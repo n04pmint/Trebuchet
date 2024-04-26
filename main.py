@@ -44,6 +44,23 @@ def parse_num(list):
    
     return new_list
 
+## quicker way to do parse_num function.
+# def parse_num(lst):
+#     new_list = []
+
+#     for number in lst:
+#         if len(number) > 2:
+#             new_number = number[0] + number[-1]
+#         elif len(number) == 1:
+#             new_number = number * 2
+#         else:
+#             new_number = number
+
+#         new_list.append(new_number)
+
+#     return new_list
+
+
 def get_num_words(input):
     return len(input)
 
